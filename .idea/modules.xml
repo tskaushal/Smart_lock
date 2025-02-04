@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iotty.iml" filepath="$PROJECT_DIR$/iotty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/iotty_android.iml" filepath="$PROJECT_DIR$/android/iotty_android.iml" />
+    </modules>
+  </component>
+</project>
