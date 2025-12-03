@@ -19,17 +19,16 @@ Arduino receives single-character commands through Serial
 Simple buzzer feedback for lock/unlock actions
 
 Minimal and easy to extend for real hardware locks
-
-Project Structure
+```
 Smart_lock/
 ├── Arduino/
-│   └── smart_lock.ino       // Arduino firmware for the lock controller
-│
-├── lib/                     // Flutter app source code
+│   └── smart_lock.ino     // Arduino firmware for the lock controller
+├── lib/                   // Flutter app source code
+├── test/                  // Flutter test files
+├── pubspec.yaml           // Flutter project configuration
+└── README.md              // This document
+```
 
-├── test/                    // Flutter test files
-├── pubspec.yaml             // Flutter project configuration
-└── README.md                // This document
 
 Arduino Firmware
 The Arduino listens for commands sent from the mobile app.
